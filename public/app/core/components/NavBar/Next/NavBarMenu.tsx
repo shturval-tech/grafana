@@ -159,7 +159,7 @@ const getStyles = (theme: GrafanaTheme2) => {
   const fadeIn = keyframes`
     from {
       background-color: ${theme.colors.background.primary};
-      width: ${theme.spacing(7)};
+      width: ${theme.spacing(6)};
     }
     to {
       background-color: ${theme.colors.background.canvas};
@@ -196,7 +196,6 @@ const getStyles = (theme: GrafanaTheme2) => {
       flexDirection: 'column',
       left: 0,
       whiteSpace: 'nowrap',
-      marginTop: theme.spacing(1),
       marginRight: theme.spacing(1.5),
       right: 0,
       zIndex: 9999,
@@ -243,7 +242,7 @@ const getStyles = (theme: GrafanaTheme2) => {
     savedItemsMenuItemWrapper: css({
       display: 'grid',
       gridAutoFlow: 'column',
-      gridTemplateColumns: `${theme.spacing(7)} auto`,
+      gridTemplateColumns: `${theme.spacing(6)} auto`,
       alignItems: 'center',
     }),
     flex: css({
@@ -254,7 +253,7 @@ const getStyles = (theme: GrafanaTheme2) => {
     }),
     collapsableMenuItem: css({
       height: theme.spacing(6),
-      width: theme.spacing(7),
+      width: theme.spacing(6),
       display: 'grid',
       placeContent: 'center',
     }),

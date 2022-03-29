@@ -145,14 +145,14 @@ const getStyles = (theme: GrafanaTheme2) => ({
     display: 'flex',
     flexDirection: 'column',
     backgroundColor: theme.colors.background.primary,
+    borderRight: `1px solid ${theme.components.panel.borderColor}`,
     zIndex: theme.zIndex.sidemenu,
-    padding: `${theme.spacing(1)} 0`,
     position: 'relative',
-    width: theme.spacing(7),
+    width: theme.spacing(6),
 
     [theme.breakpoints.down('md')]: {
+      borderRight: 0,
       position: 'fixed',
-      paddingTop: '0px',
       backgroundColor: 'inherit',
     },
 
@@ -220,10 +220,10 @@ const getStyles = (theme: GrafanaTheme2) => ({
   menuToggle: css({
     position: 'absolute',
     marginRight: 0,
-    top: '43px',
+    top: `${theme.spacing(4.5)}`,
     right: '0px',
     zIndex: 9999,
-    transform: `translateX(calc(${theme.spacing(7)} + 50%))`,
+    transform: `translateX(calc(${theme.spacing(6)} + 50%))`,
     background: 'gray',
     borderRadius: '50%',
 
