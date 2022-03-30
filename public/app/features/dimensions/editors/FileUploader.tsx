@@ -2,7 +2,6 @@ import React, { Dispatch, SetStateAction } from 'react';
 import { FileDropzone } from '@grafana/ui';
 import { getBackendSrv, config } from '@grafana/runtime';
 interface Props {
-  newValue: string;
   setNewValue: Dispatch<SetStateAction<string>>;
 }
 

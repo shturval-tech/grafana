@@ -129,17 +129,20 @@ func (s *standardStorageService) Upload(ctx context.Context, user *models.Signed
 		// Open the file
 		file, err := fileHeader.Open()
 		if err != nil {
+			response.statusCode = 500
+			response.message = "error in opening file to read"
 			return &response, err
 		}
-
+		defer file.Close()
 		// read file in chunks
 		buff := make([]byte, 512)
 		for {
-			_, err := file.Read(buff)
-			if err != nil {
-				if err != io.EOF {
-					grafanaStorageLogger.Error("error in reading file in chunks")
-				}
+			n, err := file.Read(buff)
+			if err != nil && err != io.EOF {
+				grafanaStorageLogger.Error("error in reading file in chunks")
+				break
+			}
+			if n == 0 {
 				break
 			}
 			// create contents to send to upsert
