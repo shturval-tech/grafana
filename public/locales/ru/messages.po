@@ -1,0 +1,289 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2022-01-16 17:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ru\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Shturval.tech\n"
+"Plural-Forms: \n"
+
+#: public/app/core/components/SharedPreferences/SharedPreferences.tsx
+#: public/app/features/profile/UserProfileEditForm.tsx
+msgid "common.save"
+msgstr "Сохранить"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.alerting"
+msgstr "Оповещения"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.alerting-admin"
+msgstr "Админимтсратор"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.alerting-am-routes"
+msgstr "Политика уведомлений"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.alerting-channels"
+msgstr "Каналы уведомлений"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.alerting-groups"
+msgstr "Группы"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.alerting-list"
+msgstr "Правила оповещений"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.alerting-receivers"
+msgstr "Точки контакта"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.alerting-silences"
+msgstr "Глушения"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.api-keys"
+msgstr "API ключи"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.change-password"
+msgstr "Поменять пароль"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.config"
+msgstr "Конфигурация"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.create"
+msgstr "Создать"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.create-alert"
+msgstr "Правило оповещения"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.create-dashboard"
+msgstr "Дешборд"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.create-folder"
+msgstr "Директория"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.create-import"
+msgstr "Импорт"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.dashboards"
+msgstr "Дешборды"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.datasources"
+msgstr "Источники данных"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.explore"
+msgstr "Смотреть больше"
+
+#: public/app/core/components/NavBar/NavBarItem.tsx
+#~ msgid "nav.folder"
+#~ msgstr "New folder"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.help"
+msgstr "Помощь"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.home"
+msgstr "Домой"
+
+#: public/app/core/components/NavBar/NavBarItem.tsx
+#~ msgid "nav.import"
+#~ msgstr "Import"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.library-panels"
+msgstr "Библиотечные панели"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.live"
+msgstr "Трансляция событий"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.live-cloud"
+msgstr "Облако"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.live-pipeline"
+msgstr "Конвейер"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.live-status"
+msgstr "Статус"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.manage-dashboards"
+msgstr "Просмотр"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.new-dashboard"
+msgstr "Новый дешборд"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.new-folder"
+msgstr "Новая директория"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.org-settings"
+msgstr "Настройки"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.playlists"
+msgstr "Плейлисты"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.plugins"
+msgstr "Плагины"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.profile-settings"
+msgstr "Настройки"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.service-accounts"
+msgstr "Сервисные уч. записи"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.sign-out"
+msgstr "Выйти"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.snapshots"
+msgstr "Снепшоты"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.teams"
+msgstr "Команды"
+
+#: public/app/core/components/NavBar/navBarItem-translations.ts
+msgid "nav.users"
+msgstr "Пользователи"
+
+#: public/app/core/components/SharedPreferences/SharedPreferences.tsx
+msgid "shared-dashboard.fields.timezone-label"
+msgstr "Часовая зона"
+
+#: public/app/core/components/SharedPreferences/SharedPreferences.tsx
+msgid "shared-preferences.fields.home-dashboard-label"
+msgstr "Домашний Дешборд"
+
+#: public/app/core/components/SharedPreferences/SharedPreferences.tsx
+msgid "shared-preferences.fields.home-dashboard-placeholder"
+msgstr "Выбрать дешбоорд по умолчанию"
+
+#: public/app/core/components/SharedPreferences/SharedPreferences.tsx
+msgid "shared-preferences.fields.home-dashboard-tooltip"
+msgstr "Не нашли желаемый дешборд? Пометьте его звездочкой, и он должен появиться в этом поле"
+
+#: public/app/core/components/SharedPreferences/SharedPreferences.tsx
+msgid "shared-preferences.fields.theme-label"
+msgstr "Тема"
+
+#: public/app/core/components/SharedPreferences/SharedPreferences.tsx
+msgid "shared-preferences.fields.week-start-label"
+msgstr "Начало недели"
+
+#: public/app/core/components/SharedPreferences/SharedPreferences.tsx
+msgid "shared-preferences.theme.dark-label"
+msgstr "Темная"
+
+#: public/app/core/components/SharedPreferences/SharedPreferences.tsx
+msgid "shared-preferences.theme.default-label"
+msgstr "По умолчанию"
+
+#: public/app/core/components/SharedPreferences/SharedPreferences.tsx
+msgid "shared-preferences.theme.light-label"
+msgstr "Светлая"
+
+#: public/app/core/components/SharedPreferences/SharedPreferences.tsx
+msgid "shared-preferences.title"
+msgstr "Настройки"
+
+#: public/app/features/profile/UserOrganizations.tsx
+msgid "user-orgs.current-org-button"
+msgstr "Текущая"
+
+#: public/app/features/profile/UserOrganizations.tsx
+msgid "user-orgs.name-column"
+msgstr "Имя"
+
+#: public/app/features/profile/UserOrganizations.tsx
+msgid "user-orgs.role-column"
+msgstr "Роль"
+
+#: public/app/features/profile/UserOrganizations.tsx
+msgid "user-orgs.select-org-button"
+msgstr "Выбрать"
+
+#: public/app/features/profile/UserOrganizations.tsx
+msgid "user-orgs.title"
+msgstr "Организации"
+
+#: public/app/features/profile/UserProfileEditForm.tsx
+msgid "user-profile.fields.email-error"
+msgstr "Требуется ввести email"
+
+#: public/app/features/profile/UserProfileEditForm.tsx
+msgid "user-profile.fields.email-label"
+msgstr "Почта"
+
+#: public/app/features/profile/UserProfileEditForm.tsx
+msgid "user-profile.fields.name-error"
+msgstr "Требуется ввести имя"
+
+#: public/app/features/profile/UserProfileEditForm.tsx
+#: public/app/features/profile/UserProfileEditForm.tsx
+msgid "user-profile.fields.name-label"
+msgstr "Имя"
+
+#: public/app/features/profile/UserProfileEditForm.tsx
+#: public/app/features/profile/UserProfileEditForm.tsx
+msgid "user-profile.fields.username-label"
+msgstr "Имя пользователя"
+
+#: public/app/features/profile/UserProfileEditForm.tsx
+msgid "user-profile.title"
+msgstr "Изменить профиль"
+
+#: public/app/features/profile/UserSessions.tsx
+msgid "user-session.browser-column"
+msgstr "Браузер и ОС"
+
+#: public/app/features/profile/UserSessions.tsx
+msgid "user-session.created-at-column"
+msgstr "Вошел в систему"
+
+#: public/app/features/profile/UserSessions.tsx
+msgid "user-session.ip-column"
+msgstr "IP адрес"
+
+#: public/app/features/profile/UserSessions.tsx
+msgid "user-session.revoke"
+msgstr "Завершить сессию пользователя"
+
+#: public/app/features/profile/UserSessions.tsx
+msgid "user-session.seen-at-column"
+msgstr "Был(а) в сети"
+
+#: public/app/features/profile/UserSessions.tsx
+msgid "user-sessions.loading"
+msgstr "Загрузка сессий..."
